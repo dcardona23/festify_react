@@ -1,0 +1,27 @@
+.header-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 3em;
+  font-family: "Papyrus", "Helvetica";
+}
+
+.background-image {
+  height: 60vh;
+  width: 100vw;
+}
+
+h2 {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  font-size: 4em;
+  font-family: "Papyrus", "Helvetica";
+  color: white;
+}
