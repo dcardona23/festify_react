@@ -4,7 +4,7 @@
   color: white;
 }
 
-h1 {
+#main-header {
   position: absolute;
   top: 5%;
   right: 10%;
@@ -17,11 +17,35 @@ h1 {
   width: 100vw;
 }
 
-h2 {
+#festival-name {
   position: absolute;
   top: 30%;
-  right: 30%;
+  right: 10%;
   font-size: 4em;
   font-family: "Papyrus", "Helvetica";
   color: white;
+}
+
+.search-bar {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+  border-radius: 10px;
+  border-color: blue;
+  color:darkblue
+}
+
+.schedules-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  height: fit-content;
+}
+
+#schedules-header {
+  background: linear-gradient(135deg, rgba(3, 95, 100, 1.0), rgba(58, 1, 186, 1.0));  width: 75%;
+  border-radius: 10px;
+  margin: 50px auto;
 }

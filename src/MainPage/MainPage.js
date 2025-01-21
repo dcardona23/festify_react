@@ -1,22 +1,30 @@
 import './MainPage.css'
-import { Routes, Route } from 'react-router-dom'
-import ScheduleDetails from '../ScheduleDetails/ScheduleDetails'
 import background from '../images/background.jpg'
+import { useState } from 'react'
+import Schedules from '../Schedules/Schedules'
 
 function MainPage() {
+  const [searchQuery, setSearchQuery] = useState('')
+  const [scheduleDisplay, setScheduleDisplay] = useState(true)
 
   return (
-    <>
-      <Routes>
-        <Route path='/:id' element={<ScheduleDetails />}/>
-      </Routes>
+    <main>
       <section className="header-container">
         <img className="background-image" src={ background } alt="colorful musical notes streaming across black background" />
-        <h1>Festify</h1>
-        <h2>Sunset Soundscape 2025</h2>
+        <h1 id="main-header">Festify</h1>
+        <h2 id="festival-name">Sunset Soundscape 2025</h2>
       </section>
-      
-    </>
+      <input className="search-bar"
+        type="text"
+        placeholder="Search for a schedule"
+        value={searchQuery}
+        onChange={(event) => setSearchQuery(event.target.value)}
+        />
+      <section className="schedules-container">
+        <h3 id="schedules-header">Sunset Soundscape Schedules</h3>
+        {scheduleDisplay && <Schedules />}
+      </section>
+    </main>
   )
 }
 
