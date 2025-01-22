@@ -88,8 +88,22 @@
   }
 }
 
-@media (max-width: 980) {
+@media (max-width: 900px) {
   #festival-name {
-    font-size: 2em;
+    font-size: 2.5em;
+  }
+
+  .background-image {
+    height: 250px;
+  }
+
+  #main-header {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 790px) {
+  #festival-name {
+    font-size: 1.5em;
   }
 }
