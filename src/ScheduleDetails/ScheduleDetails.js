@@ -20,7 +20,7 @@ function ScheduleDetails() {
     })
     .then(data => {
       console.log(data)
-      setSchedule(data.data[0])
+      setSchedule(data.data)
       })
     .catch(error => {
       console.error('Error fetching schedule details:', error)
