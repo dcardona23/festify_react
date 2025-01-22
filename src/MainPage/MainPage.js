@@ -1,7 +1,7 @@
 import './MainPage.css'
 import background from '../images/background.jpg'
 import { useState, useEffect } from 'react'
-import scheduleImage from '../images/schedules.jpg'
+import Schedules from '../Schedules/Schedules'
 
 function MainPage() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -18,7 +18,6 @@ function MainPage() {
       })
       .then(data => {
         setSchedules(data.data)
-        console.log(schedules[0])
       })
       .catch(error => {
         console.error('Error fetching schedules', error)
@@ -44,19 +43,7 @@ function MainPage() {
         />
       <section className="schedules-container">
         <h3 id="schedules-header">Sunset Soundscape Schedules</h3>
-        {scheduleDisplay && (
-          <section className="schedules">
-            {schedules.map((schedule, index) => (
-              <div key={index}>
-                <img
-                  src={scheduleImage}  
-                  alt="abstract music image"
-                />
-                <p className="schedule-info">{schedule.attributes.name}</p>
-              </div>
-            ))}
-            </section>
-        )}
+        {scheduleDisplay && <Schedules schedules={schedules}/>}
       </section>
     </main>
   )
