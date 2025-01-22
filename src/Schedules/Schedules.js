@@ -1,9 +1,14 @@
 import './Schedules.css'
+import { useState, useEffect } from 'react'
 
-function Schedules() {
-
+function Schedules({schedules}) {
+  console.log(schedules)
   return (
-    <h1>Hello</h1>
+    <section className="schedules">
+      {schedules.forEach((schedule) => {
+        console.log(schedule)
+      })}
+    </section>
   )
 }
 
