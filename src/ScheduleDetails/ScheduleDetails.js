@@ -2,6 +2,7 @@ import './ScheduleDetails.css'
 import { useParams, NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import scheduleImage from '../images/schedules.jpg'
+import scheduleBackground from '../images/schedulebackground.jpg'
 import homeButton from '../images/homebutton.png'
 
 function ScheduleDetails() {
@@ -49,7 +50,7 @@ function ScheduleDetails() {
     <>
       <section className="schedule-details-header-container">
         <img className="schedule-details-background-image"
-          src={scheduleImage}  
+          src={scheduleBackground}  
           alt="abstract music"
         />
         <NavLink to="/">
