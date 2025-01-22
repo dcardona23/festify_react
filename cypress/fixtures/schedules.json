@@ -1,0 +1,1032 @@
+{
+  "data": [
+      {
+          "id": 74,
+          "type": "schedule",
+          "attributes": {
+              "name": "Acoustic Bliss",
+              "description": "Experience the best of ballads with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "253",
+                      "artist_name": "Foo Fighters",
+                      "genre": "Country",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-14T21:00:00.000Z",
+                      "end_time": "2025-03-14T23:00:00.000Z"
+                  },
+                  {
+                      "id": "255",
+                      "artist_name": "Maroon 5",
+                      "genre": "Hip Hop",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-16T19:00:00.000Z",
+                      "end_time": "2025-03-16T20:30:00.000Z"
+                  },
+                  {
+                      "id": "267",
+                      "artist_name": "Chic",
+                      "genre": "Rock",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-16T04:30:00.000Z",
+                      "end_time": "2025-03-16T06:30:00.000Z"
+                  },
+                  {
+                      "id": "269",
+                      "artist_name": "Catherine Wheel",
+                      "genre": "Funk",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T03:00:00.000Z",
+                      "end_time": "2025-03-15T05:00:00.000Z"
+                  },
+                  {
+                      "id": "294",
+                      "artist_name": "Cat Stevens",
+                      "genre": "Stage And Screen",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-17T00:30:00.000Z",
+                      "end_time": "2025-03-17T01:00:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 325,
+                  "attendee_name": "Felica Breitenberg",
+                  "attendee_email": "waldo_walker@effertz-hagenes.example"
+              },
+              {
+                  "attendee_id": 326,
+                  "attendee_name": "Bruno Conroy",
+                  "attendee_email": "ulysses.littel@bahringer.example"
+              },
+              {
+                  "attendee_id": 330,
+                  "attendee_name": "Patricia Swaniawski",
+                  "attendee_email": "mel@moen-durgan.example"
+              },
+              {
+                  "attendee_id": 332,
+                  "attendee_name": "Santiago Satterfield",
+                  "attendee_email": "pearl.johns@funk.test"
+              },
+              {
+                  "attendee_id": 340,
+                  "attendee_name": "Shara Gorczany",
+                  "attendee_email": "davis@weissnat.example"
+              },
+              {
+                  "attendee_id": 349,
+                  "attendee_name": "Shaunda Shields",
+                  "attendee_email": "berry_terry@sanford.example"
+              },
+              {
+                  "attendee_id": 350,
+                  "attendee_name": "Chu Roberts",
+                  "attendee_email": "carmelo.willms@oconnell-monahan.test"
+              },
+              {
+                  "attendee_id": 356,
+                  "attendee_name": "John Littel",
+                  "attendee_email": "shawn_white@klein.example"
+              },
+              {
+                  "attendee_id": 363,
+                  "attendee_name": "Jeannie Yost",
+                  "attendee_email": "virgina.buckridge@beahan.test"
+              },
+              {
+                  "attendee_id": 374,
+                  "attendee_name": "Lia Becker",
+                  "attendee_email": "katrina.von@nicolas.example"
+              },
+              {
+                  "attendee_id": 378,
+                  "attendee_name": "Wayne Lueilwitz",
+                  "attendee_email": "winfred@spencer.example"
+              },
+              {
+                  "attendee_id": 381,
+                  "attendee_name": "Theresia Bernhard",
+                  "attendee_email": "werner@purdy.test"
+              },
+              {
+                  "attendee_id": 385,
+                  "attendee_name": "Carlena Effertz",
+                  "attendee_email": "kelley@grant-fritsch.example"
+              },
+              {
+                  "attendee_id": 389,
+                  "attendee_name": "Elden Mayer",
+                  "attendee_email": "michael.ledner@mclaughlin.example"
+              }
+          ]
+      },
+      {
+          "id": 75,
+          "type": "schedule",
+          "attributes": {
+              "name": "Legendary Rock",
+              "description": "Experience the best of world music with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "253",
+                      "artist_name": "Foo Fighters",
+                      "genre": "Country",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-14T21:00:00.000Z",
+                      "end_time": "2025-03-14T23:00:00.000Z"
+                  },
+                  {
+                      "id": "263",
+                      "artist_name": "Chrissie Hynde",
+                      "genre": "Stage And Screen",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T22:30:00.000Z",
+                      "end_time": "2025-03-15T23:30:00.000Z"
+                  },
+                  {
+                      "id": "288",
+                      "artist_name": "Björk",
+                      "genre": "Stage And Screen",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-14T20:00:00.000Z",
+                      "end_time": "2025-03-14T21:30:00.000Z"
+                  },
+                  {
+                      "id": "293",
+                      "artist_name": "The Slits",
+                      "genre": "Stage And Screen",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-17T01:00:00.000Z",
+                      "end_time": "2025-03-17T02:00:00.000Z"
+                  },
+                  {
+                      "id": "296",
+                      "artist_name": "Ryan Adams",
+                      "genre": "Latin",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-16T04:30:00.000Z",
+                      "end_time": "2025-03-16T06:30:00.000Z"
+                  },
+                  {
+                      "id": "297",
+                      "artist_name": "Frightened Rabbit",
+                      "genre": "Soul",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-15T21:00:00.000Z",
+                      "end_time": "2025-03-15T22:00:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 322,
+                  "attendee_name": "Tad Emard",
+                  "attendee_email": "dwayne@dubuque-toy.test"
+              },
+              {
+                  "attendee_id": 347,
+                  "attendee_name": "Yolande Haag",
+                  "attendee_email": "verla@schimmel.example"
+              },
+              {
+                  "attendee_id": 357,
+                  "attendee_name": "Valentine Hand",
+                  "attendee_email": "willy.kihn@jenkins.test"
+              },
+              {
+                  "attendee_id": 361,
+                  "attendee_name": "Fausto Abshire",
+                  "attendee_email": "collin_grady@keeling.test"
+              },
+              {
+                  "attendee_id": 367,
+                  "attendee_name": "Christopher Spinka",
+                  "attendee_email": "octavio@steuber.test"
+              },
+              {
+                  "attendee_id": 368,
+                  "attendee_name": "Andy Bashirian",
+                  "attendee_email": "reiko@welch.test"
+              },
+              {
+                  "attendee_id": 377,
+                  "attendee_name": "Wanita Bernier",
+                  "attendee_email": "keena@mills-lind.test"
+              },
+              {
+                  "attendee_id": 384,
+                  "attendee_name": "Amy Harber",
+                  "attendee_email": "melanie.quitzon@christiansen-oreilly.example"
+              },
+              {
+                  "attendee_id": 388,
+                  "attendee_name": "Damien Hayes",
+                  "attendee_email": "denny_langosh@nader.test"
+              },
+              {
+                  "attendee_id": 397,
+                  "attendee_name": "Lavera O'Reilly",
+                  "attendee_email": "milan@bogisich.test"
+              },
+              {
+                  "attendee_id": 403,
+                  "attendee_name": "Sol Wunsch",
+                  "attendee_email": "heidi@conroy-streich.example"
+              },
+              {
+                  "attendee_id": 404,
+                  "attendee_name": "Henry Roob",
+                  "attendee_email": "bobbye_turcotte@hermiston.test"
+              }
+          ]
+      },
+      {
+          "id": 76,
+          "type": "schedule",
+          "attributes": {
+              "name": "Acoustic Rhythms",
+              "description": "Experience the best of EDM with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "270",
+                      "artist_name": "Patti Smith",
+                      "genre": "Classical",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-15T17:00:00.000Z",
+                      "end_time": "2025-03-15T18:30:00.000Z"
+                  },
+                  {
+                      "id": "274",
+                      "artist_name": "Jimi Hendrix",
+                      "genre": "Reggae",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T03:00:00.000Z",
+                      "end_time": "2025-03-15T04:30:00.000Z"
+                  },
+                  {
+                      "id": "283",
+                      "artist_name": "Frank Zappa",
+                      "genre": "Funk",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-15T02:00:00.000Z",
+                      "end_time": "2025-03-15T03:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 316,
+                  "attendee_name": "Teisha Bahringer",
+                  "attendee_email": "betsey@schiller.test"
+              },
+              {
+                  "attendee_id": 343,
+                  "attendee_name": "Arlette Boyle",
+                  "attendee_email": "charis_grimes@miller.test"
+              },
+              {
+                  "attendee_id": 348,
+                  "attendee_name": "Jaunita Kunze",
+                  "attendee_email": "cyrus@hermann-fisher.test"
+              },
+              {
+                  "attendee_id": 351,
+                  "attendee_name": "Laronda Mayert",
+                  "attendee_email": "valencia.upton@bogan-stoltenberg.test"
+              },
+              {
+                  "attendee_id": 373,
+                  "attendee_name": "Angella Mann",
+                  "attendee_email": "taylor@franecki.example"
+              },
+              {
+                  "attendee_id": 375,
+                  "attendee_name": "Taryn Collins",
+                  "attendee_email": "keenan_ritchie@robel.example"
+              },
+              {
+                  "attendee_id": 382,
+                  "attendee_name": "Ethan Deckow",
+                  "attendee_email": "rachal@roob-cronin.example"
+              },
+              {
+                  "attendee_id": 392,
+                  "attendee_name": "Werner Streich",
+                  "attendee_email": "hunter@volkman-ankunding.example"
+              },
+              {
+                  "attendee_id": 396,
+                  "attendee_name": "Gerald Robel",
+                  "attendee_email": "deidra.waters@zemlak.test"
+              },
+              {
+                  "attendee_id": 401,
+                  "attendee_name": "Elane Howe",
+                  "attendee_email": "rueben@farrell.test"
+              },
+              {
+                  "attendee_id": 412,
+                  "attendee_name": "Gerard O'Keefe",
+                  "attendee_email": "jenice@harber.test"
+              },
+              {
+                  "attendee_id": 413,
+                  "attendee_name": "King Jacobi",
+                  "attendee_email": "minh_pfeffer@rippin.test"
+              }
+          ]
+      },
+      {
+          "id": 77,
+          "type": "schedule",
+          "attributes": {
+              "name": "Electric Bliss",
+              "description": "Experience the best of EDM with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "257",
+                      "artist_name": "Kate Bush",
+                      "genre": "Jazz",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T17:30:00.000Z",
+                      "end_time": "2025-03-15T19:00:00.000Z"
+                  },
+                  {
+                      "id": "264",
+                      "artist_name": "Primal Scream",
+                      "genre": "Funk",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-15T16:00:00.000Z",
+                      "end_time": "2025-03-15T16:30:00.000Z"
+                  },
+                  {
+                      "id": "276",
+                      "artist_name": "Red Hot Chili Peppers",
+                      "genre": "Electronic",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T01:30:00.000Z",
+                      "end_time": "2025-03-15T02:00:00.000Z"
+                  },
+                  {
+                      "id": "283",
+                      "artist_name": "Frank Zappa",
+                      "genre": "Funk",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-15T02:00:00.000Z",
+                      "end_time": "2025-03-15T03:30:00.000Z"
+                  },
+                  {
+                      "id": "284",
+                      "artist_name": "Hugh Masekela",
+                      "genre": "Folk",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-14T17:00:00.000Z",
+                      "end_time": "2025-03-14T19:00:00.000Z"
+                  },
+                  {
+                      "id": "285",
+                      "artist_name": "Kasabian",
+                      "genre": "Pop",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-15T16:30:00.000Z",
+                      "end_time": "2025-03-15T18:30:00.000Z"
+                  },
+                  {
+                      "id": "289",
+                      "artist_name": "Buzzcocks",
+                      "genre": "Blues",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-15T03:30:00.000Z",
+                      "end_time": "2025-03-15T04:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 317,
+                  "attendee_name": "Libbie Altenwerth",
+                  "attendee_email": "latashia.hackett@crist-mayert.example"
+              },
+              {
+                  "attendee_id": 319,
+                  "attendee_name": "Neta Rempel",
+                  "attendee_email": "carylon@kovacek-mcglynn.test"
+              },
+              {
+                  "attendee_id": 328,
+                  "attendee_name": "Candance Rath",
+                  "attendee_email": "krystina.towne@blanda.test"
+              },
+              {
+                  "attendee_id": 335,
+                  "attendee_name": "Keisha Purdy",
+                  "attendee_email": "hunter@thiel.test"
+              },
+              {
+                  "attendee_id": 341,
+                  "attendee_name": "Jason Stiedemann",
+                  "attendee_email": "lance.hane@cartwright.test"
+              },
+              {
+                  "attendee_id": 344,
+                  "attendee_name": "Renita Hoppe",
+                  "attendee_email": "treva@maggio.example"
+              },
+              {
+                  "attendee_id": 352,
+                  "attendee_name": "Lakia Will",
+                  "attendee_email": "twana@aufderhar.example"
+              },
+              {
+                  "attendee_id": 366,
+                  "attendee_name": "Delisa Friesen",
+                  "attendee_email": "selma_kihn@wiza-schneider.example"
+              },
+              {
+                  "attendee_id": 371,
+                  "attendee_name": "Elias Ritchie",
+                  "attendee_email": "jerilyn.farrell@vandervort-marks.example"
+              },
+              {
+                  "attendee_id": 386,
+                  "attendee_name": "Charley Jenkins",
+                  "attendee_email": "patricia_cartwright@nicolas-oberbrunner.test"
+              },
+              {
+                  "attendee_id": 402,
+                  "attendee_name": "Hoyt Stanton",
+                  "attendee_email": "glen_cormier@kuhic.test"
+              }
+          ]
+      },
+      {
+          "id": 78,
+          "type": "schedule",
+          "attributes": {
+              "name": "Legendary Groove",
+              "description": "Experience the best of rock with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "258",
+                      "artist_name": "David Gilmour",
+                      "genre": "Jazz",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-16T02:30:00.000Z",
+                      "end_time": "2025-03-16T03:00:00.000Z"
+                  },
+                  {
+                      "id": "259",
+                      "artist_name": "Tom Jones",
+                      "genre": "Rap",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-17T00:30:00.000Z",
+                      "end_time": "2025-03-17T02:30:00.000Z"
+                  },
+                  {
+                      "id": "273",
+                      "artist_name": "Siouxsie and The Banshees",
+                      "genre": "Rap",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T01:00:00.000Z",
+                      "end_time": "2025-03-16T01:30:00.000Z"
+                  },
+                  {
+                      "id": "288",
+                      "artist_name": "Björk",
+                      "genre": "Stage And Screen",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-14T20:00:00.000Z",
+                      "end_time": "2025-03-14T21:30:00.000Z"
+                  },
+                  {
+                      "id": "295",
+                      "artist_name": "Coldplay",
+                      "genre": "Hip Hop",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-15T00:00:00.000Z",
+                      "end_time": "2025-03-15T01:30:00.000Z"
+                  },
+                  {
+                      "id": "300",
+                      "artist_name": "Phish",
+                      "genre": "Blues",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-14T22:30:00.000Z",
+                      "end_time": "2025-03-14T23:00:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 314,
+                  "attendee_name": "Louis Towne",
+                  "attendee_email": "mauricio@kreiger-bashirian.test"
+              },
+              {
+                  "attendee_id": 324,
+                  "attendee_name": "Manual Beer",
+                  "attendee_email": "tiera.howe@ernser-wilderman.test"
+              },
+              {
+                  "attendee_id": 336,
+                  "attendee_name": "Xavier Pacocha",
+                  "attendee_email": "reid@bartell-kuvalis.example"
+              },
+              {
+                  "attendee_id": 345,
+                  "attendee_name": "Clark Paucek",
+                  "attendee_email": "andree@ankunding-shanahan.test"
+              },
+              {
+                  "attendee_id": 346,
+                  "attendee_name": "Spencer Bergstrom",
+                  "attendee_email": "burl@pagac-terry.example"
+              },
+              {
+                  "attendee_id": 390,
+                  "attendee_name": "Tomas Dooley",
+                  "attendee_email": "fermin@kling.example"
+              },
+              {
+                  "attendee_id": 394,
+                  "attendee_name": "Clarita Keeling",
+                  "attendee_email": "julienne.zieme@gorczany-pfeffer.test"
+              },
+              {
+                  "attendee_id": 408,
+                  "attendee_name": "Mallie Schmeler",
+                  "attendee_email": "cordie@vonrueden.test"
+              },
+              {
+                  "attendee_id": 409,
+                  "attendee_name": "Aaron Hickle",
+                  "attendee_email": "louie_wiegand@satterfield.example"
+              }
+          ]
+      },
+      {
+          "id": 79,
+          "type": "schedule",
+          "attributes": {
+              "name": "Electric Stars",
+              "description": "Experience the best of rock with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "267",
+                      "artist_name": "Chic",
+                      "genre": "Rock",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-16T04:30:00.000Z",
+                      "end_time": "2025-03-16T06:30:00.000Z"
+                  },
+                  {
+                      "id": "273",
+                      "artist_name": "Siouxsie and The Banshees",
+                      "genre": "Rap",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T01:00:00.000Z",
+                      "end_time": "2025-03-16T01:30:00.000Z"
+                  },
+                  {
+                      "id": "274",
+                      "artist_name": "Jimi Hendrix",
+                      "genre": "Reggae",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-15T03:00:00.000Z",
+                      "end_time": "2025-03-15T04:30:00.000Z"
+                  },
+                  {
+                      "id": "275",
+                      "artist_name": "Cat Anderson",
+                      "genre": "Rap",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-15T22:00:00.000Z",
+                      "end_time": "2025-03-15T23:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 333,
+                  "attendee_name": "Burma Walker",
+                  "attendee_email": "alfonso.smitham@nolan.test"
+              },
+              {
+                  "attendee_id": 359,
+                  "attendee_name": "Dong Wilderman",
+                  "attendee_email": "kristie.gerlach@mckenzie.test"
+              },
+              {
+                  "attendee_id": 380,
+                  "attendee_name": "Cole Walter",
+                  "attendee_email": "philomena@kutch.test"
+              },
+              {
+                  "attendee_id": 383,
+                  "attendee_name": "Stephen Okuneva",
+                  "attendee_email": "trinidad.wisozk@kassulke-haag.example"
+              },
+              {
+                  "attendee_id": 407,
+                  "attendee_name": "Ellsworth Stoltenberg",
+                  "attendee_email": "fermin.walker@barton.example"
+              },
+              {
+                  "attendee_id": 410,
+                  "attendee_name": "Sanford Ruecker",
+                  "attendee_email": "jerrell@hoeger-jones.test"
+              },
+              {
+                  "attendee_id": 411,
+                  "attendee_name": "Kirby Oberbrunner",
+                  "attendee_email": "stephani@padberg.test"
+              }
+          ]
+      },
+      {
+          "id": 80,
+          "type": "schedule",
+          "attributes": {
+              "name": "Global Rhythms",
+              "description": "Experience the best of ballads with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "262",
+                      "artist_name": "Pink Floyd",
+                      "genre": "Blues",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-16T03:00:00.000Z",
+                      "end_time": "2025-03-16T04:30:00.000Z"
+                  },
+                  {
+                      "id": "266",
+                      "artist_name": "Offspring",
+                      "genre": "Reggae",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-15T23:00:00.000Z",
+                      "end_time": "2025-03-16T00:00:00.000Z"
+                  },
+                  {
+                      "id": "272",
+                      "artist_name": "Cream",
+                      "genre": "Folk",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T02:00:00.000Z",
+                      "end_time": "2025-03-16T03:00:00.000Z"
+                  },
+                  {
+                      "id": "273",
+                      "artist_name": "Siouxsie and The Banshees",
+                      "genre": "Rap",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T01:00:00.000Z",
+                      "end_time": "2025-03-16T01:30:00.000Z"
+                  },
+                  {
+                      "id": "285",
+                      "artist_name": "Kasabian",
+                      "genre": "Pop",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-15T16:30:00.000Z",
+                      "end_time": "2025-03-15T18:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 327,
+                  "attendee_name": "Mozell D'Amore",
+                  "attendee_email": "carylon@okeefe.example"
+              },
+              {
+                  "attendee_id": 337,
+                  "attendee_name": "Rosanne Romaguera",
+                  "attendee_email": "major@tremblay-schimmel.test"
+              },
+              {
+                  "attendee_id": 342,
+                  "attendee_name": "Harrison Lakin",
+                  "attendee_email": "jules@rippin.example"
+              },
+              {
+                  "attendee_id": 369,
+                  "attendee_name": "Frankie Blanda",
+                  "attendee_email": "lula.heidenreich@walter.example"
+              },
+              {
+                  "attendee_id": 395,
+                  "attendee_name": "Masako Daugherty",
+                  "attendee_email": "kirby_bogisich@torp.test"
+              },
+              {
+                  "attendee_id": 405,
+                  "attendee_name": "Iola Johnson",
+                  "attendee_email": "nia@glover.test"
+              }
+          ]
+      },
+      {
+          "id": 81,
+          "type": "schedule",
+          "attributes": {
+              "name": "Electric Rhythms",
+              "description": "Experience the best of EDM with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "254",
+                      "artist_name": "Flaming Lips",
+                      "genre": "Pop",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-14T20:00:00.000Z",
+                      "end_time": "2025-03-14T22:00:00.000Z"
+                  },
+                  {
+                      "id": "271",
+                      "artist_name": "Herbie Hancock",
+                      "genre": "Blues",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-16T17:00:00.000Z",
+                      "end_time": "2025-03-16T18:00:00.000Z"
+                  },
+                  {
+                      "id": "294",
+                      "artist_name": "Cat Stevens",
+                      "genre": "Stage And Screen",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-17T00:30:00.000Z",
+                      "end_time": "2025-03-17T01:00:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 315,
+                  "attendee_name": "Kennith Wisoky",
+                  "attendee_email": "jamie@monahan-marks.example"
+              },
+              {
+                  "attendee_id": 321,
+                  "attendee_name": "Hiedi Johnston",
+                  "attendee_email": "lane@feeney.test"
+              },
+              {
+                  "attendee_id": 329,
+                  "attendee_name": "Susy Schoen",
+                  "attendee_email": "yessenia_parker@bartell.test"
+              },
+              {
+                  "attendee_id": 355,
+                  "attendee_name": "Jillian Price",
+                  "attendee_email": "rodger@gleichner.test"
+              },
+              {
+                  "attendee_id": 358,
+                  "attendee_name": "Alejandra Kulas",
+                  "attendee_email": "chance.goyette@hermiston-gottlieb.test"
+              },
+              {
+                  "attendee_id": 360,
+                  "attendee_name": "Evelia Schiller",
+                  "attendee_email": "elsa.franecki@howe.example"
+              },
+              {
+                  "attendee_id": 372,
+                  "attendee_name": "Gino Dach",
+                  "attendee_email": "lean@nolan.test"
+              },
+              {
+                  "attendee_id": 387,
+                  "attendee_name": "Cornell Hintz",
+                  "attendee_email": "sheron@zemlak-halvorson.example"
+              },
+              {
+                  "attendee_id": 391,
+                  "attendee_name": "Lindsey Schroeder",
+                  "attendee_email": "carmen@reynolds.example"
+              },
+              {
+                  "attendee_id": 398,
+                  "attendee_name": "Archie Herman",
+                  "attendee_email": "juli_runolfsdottir@effertz.test"
+              }
+          ]
+      },
+      {
+          "id": 82,
+          "type": "schedule",
+          "attributes": {
+              "name": "Legendary Stars",
+              "description": "Experience the best of rock with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "262",
+                      "artist_name": "Pink Floyd",
+                      "genre": "Blues",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-16T03:00:00.000Z",
+                      "end_time": "2025-03-16T04:30:00.000Z"
+                  },
+                  {
+                      "id": "273",
+                      "artist_name": "Siouxsie and The Banshees",
+                      "genre": "Rap",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T01:00:00.000Z",
+                      "end_time": "2025-03-16T01:30:00.000Z"
+                  },
+                  {
+                      "id": "275",
+                      "artist_name": "Cat Anderson",
+                      "genre": "Rap",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-15T22:00:00.000Z",
+                      "end_time": "2025-03-15T23:30:00.000Z"
+                  },
+                  {
+                      "id": "282",
+                      "artist_name": "Marc Bolan",
+                      "genre": "World",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T16:00:00.000Z",
+                      "end_time": "2025-03-16T17:00:00.000Z"
+                  },
+                  {
+                      "id": "286",
+                      "artist_name": "White Stripes",
+                      "genre": "Classical",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-17T00:30:00.000Z",
+                      "end_time": "2025-03-17T01:00:00.000Z"
+                  },
+                  {
+                      "id": "288",
+                      "artist_name": "Björk",
+                      "genre": "Stage And Screen",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-14T20:00:00.000Z",
+                      "end_time": "2025-03-14T21:30:00.000Z"
+                  },
+                  {
+                      "id": "290",
+                      "artist_name": "Devo",
+                      "genre": "Blues",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-14T22:30:00.000Z",
+                      "end_time": "2025-03-14T23:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 318,
+                  "attendee_name": "Vincent Heidenreich",
+                  "attendee_email": "gerard.brown@lesch.test"
+              },
+              {
+                  "attendee_id": 320,
+                  "attendee_name": "Estefana Hansen",
+                  "attendee_email": "evia@powlowski.test"
+              },
+              {
+                  "attendee_id": 331,
+                  "attendee_name": "Meredith Rodriguez",
+                  "attendee_email": "abe_flatley@morar.example"
+              },
+              {
+                  "attendee_id": 334,
+                  "attendee_name": "Barry Moen",
+                  "attendee_email": "lucius@ortiz.example"
+              },
+              {
+                  "attendee_id": 339,
+                  "attendee_name": "Isabella Huel",
+                  "attendee_email": "carolee.schultz@glover.test"
+              },
+              {
+                  "attendee_id": 353,
+                  "attendee_name": "Vincenzo Lind",
+                  "attendee_email": "marvin@spinka.test"
+              },
+              {
+                  "attendee_id": 362,
+                  "attendee_name": "Noel Bradtke",
+                  "attendee_email": "aliza_tromp@heaney.example"
+              },
+              {
+                  "attendee_id": 364,
+                  "attendee_name": "Alfonso Buckridge",
+                  "attendee_email": "chase_blanda@legros.example"
+              },
+              {
+                  "attendee_id": 365,
+                  "attendee_name": "Miguel Auer",
+                  "attendee_email": "danae@kovacek.test"
+              },
+              {
+                  "attendee_id": 376,
+                  "attendee_name": "Joeann Wyman",
+                  "attendee_email": "marcie@stehr.example"
+              },
+              {
+                  "attendee_id": 400,
+                  "attendee_name": "Garret Legros",
+                  "attendee_email": "oretha@schaden-grimes.example"
+              }
+          ]
+      },
+      {
+          "id": 83,
+          "type": "schedule",
+          "attributes": {
+              "name": "Global Groove",
+              "description": "Experience the best of EDM with unforgettable performances.",
+              "shows": [
+                  {
+                      "id": "258",
+                      "artist_name": "David Gilmour",
+                      "genre": "Jazz",
+                      "location": "Amphitheater Stage",
+                      "start_time": "2025-03-16T02:30:00.000Z",
+                      "end_time": "2025-03-16T03:00:00.000Z"
+                  },
+                  {
+                      "id": "272",
+                      "artist_name": "Cream",
+                      "genre": "Folk",
+                      "location": "Waterfront Stage",
+                      "start_time": "2025-03-16T02:00:00.000Z",
+                      "end_time": "2025-03-16T03:00:00.000Z"
+                  },
+                  {
+                      "id": "285",
+                      "artist_name": "Kasabian",
+                      "genre": "Pop",
+                      "location": "Grand Pavilion",
+                      "start_time": "2025-03-15T16:30:00.000Z",
+                      "end_time": "2025-03-15T18:30:00.000Z"
+                  },
+                  {
+                      "id": "296",
+                      "artist_name": "Ryan Adams",
+                      "genre": "Latin",
+                      "location": "VIP Lounge",
+                      "start_time": "2025-03-16T04:30:00.000Z",
+                      "end_time": "2025-03-16T06:30:00.000Z"
+                  },
+                  {
+                      "id": "299",
+                      "artist_name": "R.E.M.",
+                      "genre": "Stage And Screen",
+                      "location": "Main Stage",
+                      "start_time": "2025-03-14T18:30:00.000Z",
+                      "end_time": "2025-03-14T19:30:00.000Z"
+                  }
+              ]
+          },
+          "other_schedule_attendees": [
+              {
+                  "attendee_id": 323,
+                  "attendee_name": "Ulysses Ebert",
+                  "attendee_email": "milan.dickens@graham.example"
+              },
+              {
+                  "attendee_id": 338,
+                  "attendee_name": "Gabriella Reinger",
+                  "attendee_email": "bridgett_runte@pouros-crist.example"
+              },
+              {
+                  "attendee_id": 354,
+                  "attendee_name": "Roger Treutel",
+                  "attendee_email": "albert_hickle@graham.example"
+              },
+              {
+                  "attendee_id": 370,
+                  "attendee_name": "Twyla Kuhlman",
+                  "attendee_email": "theodora@dietrich.test"
+              },
+              {
+                  "attendee_id": 379,
+                  "attendee_name": "Teddy Borer",
+                  "attendee_email": "tracee@farrell.example"
+              },
+              {
+                  "attendee_id": 393,
+                  "attendee_name": "Benny Abernathy",
+                  "attendee_email": "benjamin.koelpin@kub.test"
+              },
+              {
+                  "attendee_id": 399,
+                  "attendee_name": "Nereida O'Hara",
+                  "attendee_email": "marylynn_mckenzie@trantow-mitchell.example"
+              },
+              {
+                  "attendee_id": 406,
+                  "attendee_name": "Noah Quigley",
+                  "attendee_email": "caleb_bailey@batz.test"
+              }
+          ]
+      }
+  ]
+}

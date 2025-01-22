@@ -8,6 +8,7 @@ import homeButton from '../images/homebutton.png'
 function ScheduleDetails() {
   const { id } = useParams()
   const [schedule, setSchedule] = useState(null)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     fetch(`http://localhost:5000/api/v1/schedules/${id}`)
@@ -18,14 +19,14 @@ function ScheduleDetails() {
       return response.json()
     })
     .then(data => {
+      console.log(data)
       setSchedule(data.data[0])
       })
     .catch(error => {
       console.error('Error fetching schedule details:', error)
-      })
+      setError('Oops! Something went wrong. Please try again later.')
+    })
   }, [id])
-
-  if (!schedule) return <p>Loading...</p>
 
   function removeShow(showId) {
     fetch(`http://localhost:5000/api/v1/schedules/${id}/shows/${showId}`, {
@@ -43,7 +44,14 @@ function ScheduleDetails() {
       })
     .catch(error => {
       console.error('Error removing show:', error)
+      setError('Oops! Something went wrong. Please try again later.')
       })
+  }
+
+  if (!schedule && !error) return <p>Loading...</p>
+
+  if (error) { 
+    return <h1>{error}</h1>
   }
 
   return (
@@ -51,7 +59,7 @@ function ScheduleDetails() {
       <section className="schedule-details-header-container">
         <img className="schedule-details-background-image"
           src={scheduleBackground}  
-          alt="abstract music"
+          alt="black record on grey background with musical notes"
         />
         <NavLink to="/">
           <img className="home-button" src={ homeButton } alt="Back to main page" />

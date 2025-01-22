@@ -7,6 +7,7 @@ function MainPage() {
   const [searchQuery, setSearchQuery] = useState('')
   const [scheduleDisplay] = useState(true)
   const [schedules, setSchedules] = useState([])
+  const [error, setError] = useState(null)
   
     function fetchSchedules() {
       fetch('http://localhost:5000/api/v1/schedules')
@@ -22,9 +23,10 @@ function MainPage() {
       })
       .catch(error => {
         console.error('Error fetching schedules', error)
+        setError('Oops! Something went wrong. Please try again later.')
       })
     }
-  
+
     useEffect(() => {
       fetchSchedules()
     }, [])  
@@ -34,6 +36,10 @@ function MainPage() {
         show.artist_name.toLowerCase().includes(searchQuery.toLowerCase())
       )
     )  
+
+    if (error) { 
+      return <h1>{error}</h1>
+    }
 
   return (
     <main>
