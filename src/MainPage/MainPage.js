@@ -5,7 +5,7 @@ import Schedules from '../Schedules/Schedules'
 
 function MainPage() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [scheduleDisplay, setScheduleDisplay] = useState(true)
+  const [scheduleDisplay] = useState(true)
   const [schedules, setSchedules] = useState([])
   
     function fetchSchedules() {

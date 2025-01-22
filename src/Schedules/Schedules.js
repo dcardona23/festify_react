@@ -7,11 +7,11 @@ function Schedules({schedules}) {
   return (
     <section className="schedules">
       {schedules.map((schedule, index) => (
-        <div key={index}>
+        <div className="schedule-card" key={index}>
           <Link to={`/${schedule.id}`}>
             <img
               src={scheduleImage}  
-              alt="abstract music image"
+              alt="abstract music"
             />
           </Link>
           <p className="schedule-info">{schedule.attributes.name}</p>
