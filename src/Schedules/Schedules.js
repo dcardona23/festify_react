@@ -3,6 +3,7 @@ import scheduleImage from '../images/schedules.jpg'
 import { Link } from 'react-router-dom'
 
 function Schedules({schedules}) {
+console.log(schedules)
 
   return (
     <section className="schedules">
@@ -13,8 +14,8 @@ function Schedules({schedules}) {
               src={scheduleImage}  
               alt="abstract music"
             />
+            <p className="schedule-info">{schedule.attributes.name}</p>
           </Link>
-          <p className="schedule-info">{schedule.attributes.name}</p>
         </div>
       ))}
       </section>

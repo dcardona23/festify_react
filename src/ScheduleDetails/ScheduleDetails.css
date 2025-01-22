@@ -10,9 +10,14 @@
 .schedule-details-header-container {
   position: relative;
   text-align: center;
-  color: black;
+  color: white;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow: hidden;
+  gap: 0;
 }
 
 .schedule-details-background-image {
@@ -22,29 +27,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 0;
 }
 
 #schedule-details-header {
-  position: absolute;
-  top: 10%;
-  left: 5%;
   font-size: 3em;  
   font-family: "Papyrus", "Helvetica";
-  color: black;
+  color: white;
   z-index: 2;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 #schedule-details-description {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  width: 30%;
+  width: 60%;
   font-size: 1.5em;
-  line-height: 1.5;
-  color: black;
+  color: white;
   z-index: 2;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 .shows-container, .attendees-container {
@@ -66,7 +66,13 @@
 }
 
 .show-card, .attendee-card, .schedule-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 300px;
+  height: 500px;
   background: white;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -75,25 +81,27 @@
   transition: transform 0.2s;
 }
 
-.show-card:hover, .attendee-card:hover, .schedule-card:hover {
+.attendee-card:hover, .schedule-card:hover {
   transform: scale(1.05);
 }
 
 #remove-show-button {
-  background: linear-gradient(135deg, rgba(3, 95, 100, 1.0), rgba(58, 1, 186, 1.0));  width: 75%;
+  position: absolute; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  background: lightblue;
   border: none;
-  color: white;
-  padding: 10px 20px;
+  padding: 5px;
   font-size: 18px;
   border-radius: 10px;
-  width: 200px;
+  width: 250px;
   cursor: pointer;
-  height: 60px;
   font-weight: bold;
   box-sizing: border-box;
-  margin-bottom: 50px;
-  margin-top: 15px;
-  z-index: 1000;
+  color: black;
+  text-align: center;
+  display: inline-block;
 }
 
 .show-image {
@@ -103,18 +111,26 @@
 }
 
 .show-info, .attendee-info {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   padding: 15px;
-  text-align: left;
+  text-align: center;
   font-family: Arial, sans-serif;
+  color: white;
+  font-size: 1em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  width: 80%;
+  overflow:;
 }
 
 .show-info p, .attendee-info p {
   margin: 5px 0;
   font-size: 0.9em;
-  color: #333;
 }
 
 .show-info p span, .attendee-info p span {
   font-weight: bold;
-  color: #555;
+  color: white;
 }

@@ -59,7 +59,7 @@ function ScheduleDetails() {
         <h2 id="schedule-details-description">{schedule.attributes.description}</h2>
       </section>
       <section className="shows-container">
-          <h3 id="schedules-header">{`${schedule.attributes.name} Show Details`}</h3>
+          <h3 id="shows-header">{`${schedule.attributes.name} Show Details`}</h3>
         <div className="shows">
           {schedule.attributes.shows.map((show, index) => (
             <div className="show-card" key={index}>

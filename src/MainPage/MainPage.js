@@ -17,6 +17,7 @@ function MainPage() {
         return response.json()
       })
       .then(data => {
+        console.log(data)
         setSchedules(data.data)
       })
       .catch(error => {
@@ -28,6 +29,12 @@ function MainPage() {
       fetchSchedules()
     }, [])  
 
+    const filteredSchedules = schedules.filter((schedule) =>
+      (schedule.attributes.shows || []).some((show) =>
+        show.artist_name.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    )  
+
   return (
     <main>
       <section className="header-container">
@@ -37,13 +44,13 @@ function MainPage() {
       </section>
       <input className="search-bar"
         type="text"
-        placeholder="Search for a schedule"
+        placeholder="Search schedules by artist name"
         value={searchQuery}
         onChange={(event) => setSearchQuery(event.target.value)}
         />
       <section className="schedules-container">
         <h3 id="schedules-header">Sunset Soundscape Schedules</h3>
-        {scheduleDisplay && <Schedules schedules={schedules}/>}
+        {scheduleDisplay && <Schedules schedules={filteredSchedules}/>}
       </section>
     </main>
   )
