@@ -1,14 +1,23 @@
 import './Schedules.css'
-import { useState, useEffect } from 'react'
+import scheduleImage from '../images/schedules.jpg'
+import { Link } from 'react-router-dom'
 
 function Schedules({schedules}) {
-  console.log(schedules)
+
   return (
     <section className="schedules">
-      {schedules.forEach((schedule) => {
-        console.log(schedule)
-      })}
-    </section>
+      {schedules.map((schedule, index) => (
+        <div key={index}>
+          <Link to={`/${schedule.id}`}>
+            <img
+              src={scheduleImage}  
+              alt="abstract music image"
+            />
+          </Link>
+          <p className="schedule-info">{schedule.attributes.name}</p>
+        </div>
+      ))}
+      </section>
   )
 }
 
