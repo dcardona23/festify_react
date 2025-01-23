@@ -19,7 +19,6 @@ function ScheduleDetails() {
       return response.json()
     })
     .then(data => {
-      console.log(data)
       setSchedule(data.data)
       })
     .catch(error => {

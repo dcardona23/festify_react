@@ -17,7 +17,6 @@ function MainPage() {
         return response.json()
       })
       .then(data => {
-        console.log(data)
         setSchedules(data.data)
       })
       .catch(error => {
