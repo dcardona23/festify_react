@@ -1,0 +1,103 @@
+{
+  "data": {
+      "id": 88,
+      "type": "schedule",
+      "attributes": {
+          "name": "Acoustic Bliss",
+          "description": "Experience the best of EDM with unforgettable performances.",
+          "shows": [
+              {
+                  "id": "340",
+                  "artist_name": "Chris Isaak",
+                  "genre": "Latin",
+                  "location": "Amphitheater Stage",
+                  "start_time": "2025-03-17T02:00:00.000Z",
+                  "end_time": "2025-03-17T03:00:00.000Z"
+              },
+              {
+                  "id": "341",
+                  "artist_name": "George Michael",
+                  "genre": "Soul",
+                  "location": "VIP Lounge",
+                  "start_time": "2025-03-16T04:30:00.000Z",
+                  "end_time": "2025-03-16T05:00:00.000Z"
+              },
+              {
+                  "id": "344",
+                  "artist_name": "Pulp",
+                  "genre": "Latin",
+                  "location": "VIP Lounge",
+                  "start_time": "2025-03-16T20:00:00.000Z",
+                  "end_time": "2025-03-16T21:30:00.000Z"
+              }
+          ]
+      },
+      "other_schedule_attendees": [
+          {
+              "attendee_id": 414,
+              "attendee_name": "Mariela Jenkins",
+              "attendee_email": "shelli@hodkiewicz-padberg.example"
+          },
+          {
+              "attendee_id": 422,
+              "attendee_name": "Donovan Runte",
+              "attendee_email": "jamie_moore@luettgen.test"
+          },
+          {
+              "attendee_id": 423,
+              "attendee_name": "Malorie Krajcik",
+              "attendee_email": "arianna.dach@abernathy-rosenbaum.test"
+          },
+          {
+              "attendee_id": 432,
+              "attendee_name": "Gonzalo Flatley",
+              "attendee_email": "shelby@stanton-schroeder.example"
+          },
+          {
+              "attendee_id": 436,
+              "attendee_name": "Mario Kautzer",
+              "attendee_email": "jon@mcclure.test"
+          },
+          {
+              "attendee_id": 438,
+              "attendee_name": "Tamekia Langworth",
+              "attendee_email": "livia@will.test"
+          },
+          {
+              "attendee_id": 460,
+              "attendee_name": "Gregg White",
+              "attendee_email": "geoffrey.abshire@schmidt.test"
+          },
+          {
+              "attendee_id": 486,
+              "attendee_name": "Frederick Brown",
+              "attendee_email": "cathi.lakin@ohara-miller.example"
+          },
+          {
+              "attendee_id": 492,
+              "attendee_name": "Clifton Hartmann",
+              "attendee_email": "claude_dach@ward-gutkowski.test"
+          },
+          {
+              "attendee_id": 496,
+              "attendee_name": "Porsha Fadel",
+              "attendee_email": "cayla@wunsch-kohler.test"
+          },
+          {
+              "attendee_id": 500,
+              "attendee_name": "Sharla Bogan",
+              "attendee_email": "elna@ratke.test"
+          },
+          {
+              "attendee_id": 507,
+              "attendee_name": "Davida Spencer",
+              "attendee_email": "lorina.goodwin@moen.example"
+          },
+          {
+              "attendee_id": 512,
+              "attendee_name": "Laraine Senger",
+              "attendee_email": "malvina@ryan.example"
+          }
+      ]
+  }
+}
