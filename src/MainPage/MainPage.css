@@ -108,4 +108,8 @@
   #shows-header, #attendees-header, #schedules-header {
     font-size: 1em;
   }
+
+  .schedule-info {
+    font-size: 1em;
+  }
 }
