@@ -3,7 +3,6 @@ import scheduleImage from '../images/schedules.jpg'
 import { Link } from 'react-router-dom'
 
 function Schedules({schedules}) {
-console.log(schedules)
 
   return (
     <section className="schedules">
