@@ -5,7 +5,6 @@ import Schedules from '../Schedules/Schedules'
 
 function MainPage() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [scheduleDisplay] = useState(true)
   const [schedules, setSchedules] = useState([])
   const [error, setError] = useState(null)
   
@@ -56,7 +55,7 @@ function MainPage() {
         />
       <section className="schedules-container">
         <h3 id="schedules-header">Sunset Soundscape Schedules</h3>
-        {scheduleDisplay && <Schedules schedules={filteredSchedules}/>}
+        <Schedules schedules={filteredSchedules}/>
       </section>
     </main>
   )
