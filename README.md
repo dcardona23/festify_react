@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Festify Frontend
 
-## Available Scripts
+## Abstract
+Festify is a music festival scheduling application designed to provide festival administrators with detailed information about festival schedules, shows, and attendees. Administrators can view individual schedule details, including show times, locations, and artists. Schedules can also be searched by artist name, and a show can easily be removed from a schedule by clicking a button.
 
-In the project directory, you can run:
+## Contributor
+Danielle Cardona - [LinkedIn](https://www.linkedin.com/in/danielle-cardona-se/), [GitHub](https://github.com/dcardona23)
 
-### `npm start`
+## Previews
+![Main Page GIF](src/images/mainpage.gif)
+![Delete Show GIF](src/images/deleteshow.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Planning/Wireframing
+![Front End MVP](src/images/MVP.png)
+![Wireframe and component architecture](src/images/Festify.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+1. Clone the repository locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory
+    - cd festify_react
 
-### `npm run build`
+3. Install dependencies 
+    - npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server
+    - npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Visit the application in your browser
+    - http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. To fetch data from the backend, you will also need to clone the backend and run the server on localhost:5000
+    - rails s -p 5000
 
-### `npm run eject`
+## Summary of Technologies
+- React: For building a dynamic and interactive user interface.
+- React Router: For client-side routing.
+- CSS: For styling components and layout.
+- Fetch API: For making HTTP requests to the backend.
+- JavaScript (ES6): Core language for frontend development.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Goals
+- Provide a seamless administrator experience for exploring festival schedules and details.
+- Enable administrators to view artist information and show locations and times.
+- Develop a clean, professional UI for schedule and show information.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Testing
+This project uses Cypress for end to end testing to ensure the application's workflows function correctly.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Running Tests
+- Ensure all dependencies are installed.
+- Run the test suite:
+  - npm run cypress
