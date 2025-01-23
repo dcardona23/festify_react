@@ -134,3 +134,22 @@
   font-weight: bold;
   color: white;
 }
+
+@media (max-width: 664px) {
+  .show-card, .attendee-card, .schedule-card {
+    width: 200px;
+    height: 300px;
+  }
+
+  .show-info, .attendee-info {
+    font-size: .75em;
+  }
+
+  #schedule-details-header {
+    font-size: 2em;
+  }
+
+  #schedule-details-description {
+    font-size: 1em;
+  }
+}
