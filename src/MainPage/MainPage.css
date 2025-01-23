@@ -105,7 +105,7 @@
     font-size: 1.5em;
   }
 
-  #shows-header, #attendees-header {
+  #shows-header, #attendees-header, #schedules-header {
     font-size: 1em;
   }
 }
