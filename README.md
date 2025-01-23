@@ -14,7 +14,7 @@ Danielle Cardona - [LinkedIn](https://www.linkedin.com/in/danielle-cardona-se/),
 
 ## Planning/Wireframing
 ![Front End MVP](src/images/MVP.png)
-![Wireframe and component architecture](src/images/Festify.png)
+![Wireframe and component architecture](src/images/FEdesign.png)
 
 ## Setup Instructions
 
